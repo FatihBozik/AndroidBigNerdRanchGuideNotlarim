@@ -110,8 +110,8 @@ R.java
 > \+ yazmamızın sebebi daha önce olmayan bir değişken yaratmak istememiz sebebiyledir. stringler için + işareti kullanmadan
 @string/my_string şeklinde bir tanımlama yapıyorduk çünkü strings.xml de my_string adında bir string olduğunu biliyoruz ve sadece ona bir referansta bulunuyoruz.
 
-# [1.6 Google Android İsimlendirme Standartları](http://source.android.com/source/code-style.html#follow-field-naming-conventions)
---
+[1.6 Google Android İsimlendirme Standartları](http://source.android.com/source/code-style.html#follow-field-naming-conventions)
+
 * Non-public, non-static field names start with m.
 * Static field names start with s.
 * Other fields start with a lower case letter.
