@@ -48,7 +48,7 @@ android:layout_width ve android:layout_height attributeları her tip widget içi
 **android:orientation :** LinearLayout için `vertical` ya da `horizontal` değerlerini alabilir. `vertical` ilk çocuk en yukarı yerleşir. `horizontal` da ise ilk çocuk en sola yerleşir.
 > Arapça gibi dillerde `android:orientation="horizontal"` durumunda  ilk çocuk en sağa yerleşir. 
 
-**android:text : ** Button, TextView gibi widgetlarda bulunur. Gösterilecek yazıyı tutar.
+**android:text :** Button, TextView gibi widgetlarda bulunur. Gösterilecek yazıyı tutar.
 
 1.4 Layout XML'den View Nesnelerine
 --
@@ -66,7 +66,7 @@ public void setContentView(int layoutResID)
 
 * Uygulamamızdaki kaynaklar `res/` klaörü altında bulunur. Örneğin uygulamamız içindeki string'ler `res/values/` altında `strings.xml` dosyasında tutulur. Layout'lar `res/layout` klasörü altındadır.
 
-* Kod içinden kaynaklara erişmek için *resource Id*'leri kullanırız. Uygulamamız içindeki kaynakların id'leri R.java isimli dosya da oluşturulur. R.java dosyasının genel görünümü şu şekildedir.
+* Kod içinden kaynaklara erişmek için *resource Id*'leri kullanırız. Uygulamamız içindeki kaynakların id'leri `R.java` isimli dosya da oluşturulur. `R.java` dosyasının genel görünümü şu şekildedir.
 
 R.java
  ```java
@@ -110,7 +110,7 @@ R.java
 > \+ yazmamızın sebebi daha önce olmayan bir değişken yaratmak istememiz sebebiyledir. stringler için + işareti kullanmadan
 @string/my_string şeklinde bir tanımlama yapıyorduk çünkü strings.xml de my_string adında bir string olduğunu biliyoruz ve sadece ona bir referansta bulunuyoruz.
 
-1.6 Google Android İsimlendirme Standartları
+# [1.6 Google Android İsimlendirme Standartları](http://source.android.com/source/code-style.html#follow-field-naming-conventions)
 --
 * Non-public, non-static field names start with m.
 * Static field names start with s.
@@ -127,15 +127,14 @@ public class MyClass {
     protected int mProtected;
 }
 ```
-[Kaynak](http://source.android.com/source/code-style.html#follow-field-naming-conventions)
 
 1.7 Widget'ları bağlamak(wiring up)
 --
-İnflate edilmiş bir widget nesnesine bir referans elde etmek için
+İnflate edilmiş bir widget nesnesine referans elde etmek için
 ```java
 public View findViewById(int id)
 ```
-Activity metodu çağrılır. Ve sonrasında tıklandığında çalışacak metod için isimsiz sınıf oluşturulup onClick metodu çalıştırılır.
+activity metodu çağrılır. Ve sonrasında tıklandığında çalışacak metod için isimsiz sınıf oluşturulup onClick metodu çalıştırılır.
 
 Android uygulamaları olay yönetimlidir(event-driven). Uygulama başlar ve bir olay bekler. Örneğin kullanıcının bir butona basması gibi. Event'a cevap olarak yaratılan nesneye listener denir. Listener, event için listener interfaceyi uygulayan bir nesnedir.  
 
