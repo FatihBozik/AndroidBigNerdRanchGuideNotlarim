@@ -37,7 +37,7 @@ Bölüm 1
 **android:layout_width** ve **android:layout_height**
 android:layout_width ve android:layout_height attributeları her tip widget için gereklidir. `match_parent` ya da `wrap_content` özelliklerini alabilir.
 
-<blockquote> `fill_parent` isimli attribute API Level 8'den itibaren önerilmemektedir ve `match_parent` olarak yeniden isimlendirilmiştir. </blockquote>
+> `fill_parent` isimli attribute API Level 8'den itibaren önerilmemektedir ve `match_parent` olarak yeniden isimlendirilmiştir. 
 
 **match_parent :** Görünümü kendi ebeveyni kadar büyük olsun
 
@@ -46,7 +46,7 @@ android:layout_width ve android:layout_height attributeları her tip widget içi
 **padding :** TextView için TextView'ın içindeki text ile arasına boşluk koyar.
 
 **android:orientation :** LinearLayout için `vertical` ya da `horizontal` değerlerini alabilir. `vertical` ilk çocuk en yukarı yerleşir. `horizontal` da ise ilk çocuk en sola yerleşir.
-<blockquote> Arapça gibi dillerde `android:orientation="horizontal"` durumunda  ilk çocuk en sağa yerleşir. </blockquote>
+> Arapça gibi dillerde `android:orientation="horizontal"` durumunda  ilk çocuk en sağa yerleşir. 
 
 **android:text : ** Button, TextView gibi widgetlarda bulunur. Gösterilecek yazıyı tutar.
 
@@ -92,12 +92,12 @@ R.java
       public static final int menu_settings=0x7f040006;
       public static final int question_text=0x7f040001;
       public static final int true_button=0x7f040002;
-    }
+   }
    ...
  }
  ```
 
-<blockquote> Android oluşturduğunuz her layout ve string için otomatik olarak id oluştutur. Ancak layout dosyalarınız içindeki widget'lar için otomatik id oluşturulmaz. Eğer kod içinden erişmek istediğiniz bir widget mevcutsa buna id yi biz kendimiz vermeliyiz. </blockquote>
+> Android oluşturduğunuz her layout ve string için otomatik olarak id oluştutur. Ancak layout dosyalarınız içindeki widget'lar için otomatik id oluşturulmaz. Eğer kod içinden erişmek istediğiniz bir widget mevcutsa buna id yi biz kendimiz vermeliyiz.
 
 * Bir widget'a resource id, `android:id` attribute'una değer verilerek atanmış olur. Bunu yaptığımızda `R` sınıfının statik iç sınıfı olan `id` sınıfında bizim verdiğimiz isimle widget'a bir referans adresini belirtmek üzere hexadecimal formatta bir tamsayı değeri oluşturulur.
 
