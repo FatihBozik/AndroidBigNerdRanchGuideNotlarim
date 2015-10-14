@@ -1,6 +1,6 @@
 ## Android Programming The Big Nerd Ranch Guide
 
-0. [İlk Android Uygulaması](#bölüm-1)
+0. [İlk Android Uygulaması](https://github.com/FatihBozik/AndroidBigNerdRanchGuideNotlarim/blob/master/B%C3%B6l%C3%BCm%201.md1)
   * [1.1 User Interface](#11-user-interface)
   * [1.2 The view hierarchy](#12-the-view-hierarchy)
   * [1.3 Widget attributes](#13-widget-attributes)
