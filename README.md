@@ -1,5 +1,7 @@
 ## Android Programming The Big Nerd Ranch Guide
 
+[supported markup formats](#markups)
+
 [Bölüm 1](#bolum_1)
 
 [Bölüm 2](#bölüm_2)
@@ -14,7 +16,7 @@
 
 [Bölüm 7](#bölüm_7)
 
-#Bolum 1
+#Markups
 
 1.1 User Interface
 ------------------
