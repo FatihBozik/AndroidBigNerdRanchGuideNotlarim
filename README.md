@@ -1,6 +1,6 @@
 ## Android Programming The Big Nerd Ranch Guide
 
-[Bölüm 1](#bölüm_1)
+[Bölüm 1](#bolum_1)
 
 [Bölüm 2](#bölüm_2)
 
@@ -14,7 +14,7 @@
 
 [Bölüm 7](#bölüm_7)
 
-#Bölüm 1
+#Bolum 1
 
 1.1 User Interface
 ------------------
