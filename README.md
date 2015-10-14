@@ -5,7 +5,7 @@
   * [1.2 The view hierarchy](#12-the-view-hierarchy)
   * [1.3 Widget attributes](#13-widget-attributes)
   * [1.4 Layout XML'den View Nesnelerine](#14-layout-xmlden-view-nesnelerine)
-  * [1.5 Resource lar and resource ID leri](#15-resource-lar-and-resource-id-leri)
+  * [1.6 Google Android İsimlendirme Standartları](#16-google-android-isimlendirme-standartları)
   
     
 
@@ -118,7 +118,7 @@ R.java
 > \+ yazmamızın sebebi daha önce olmayan bir değişken yaratmak istememiz sebebiyledir. stringler için + işareti kullanmadan
 @string/my_string şeklinde bir tanımlama yapıyorduk çünkü strings.xml de my_string adında bir string olduğunu biliyoruz ve sadece ona bir referansta bulunuyoruz.
 
-[1.6 Google Android İsimlendirme Standartları](http://source.android.com/source/code-style.html#follow-field-naming-conventions)
+#[1.6 Google Android İsimlendirme Standartları](http://source.android.com/source/code-style.html#follow-field-naming-conventions)
 
 * Non-public, non-static field names start with m.
 * Static field names start with s.
