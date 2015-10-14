@@ -16,7 +16,7 @@
 
 [Bölüm 7](#bölüm_7)
 
-#Markups
+#Bölüm 1
 
 1.1 User Interface
 ------------------
