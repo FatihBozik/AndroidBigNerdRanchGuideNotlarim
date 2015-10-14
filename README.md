@@ -14,7 +14,7 @@
 
 [Bölüm 7](#bölüm_7)
 
-# Bölüm 1
+#Bölüm 1
 
 1.1 User Interface
 ------------------
