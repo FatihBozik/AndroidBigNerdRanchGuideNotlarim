@@ -4,7 +4,8 @@
   * [1.1 User Interface](#11-user-interface)
   * [1.2 The view hierarchy](#12-the-view-hierarchy)
   * [1.3 Widget attributes](#13-widget-attributes)
-  * [1.4 Layout XML'den View Nesnelerine](#14-layout-xml'den View Nesnelerine)
+  * [1.4 Layout XML'den View Nesnelerine](#14-layout-xmlden-view-nesnelerine)
+  * [1.5 Resource lar and resource ID leri](#15-resource-lar-and-resource-id-leri)
   
     
 
