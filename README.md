@@ -1,7 +1,7 @@
 ## Android Programming The Big Nerd Ranch Guide
 
-[Chapter 1](#bölüm-1)
-   * [1.1 User Interface](#1.1user-interface)
+0. [İlk Android Uygulaması](#bölüm-1)
+   * [1.1 User Interface](#11user-interface)
    * 
     
 [Bölüm 1](#bolum_1)
