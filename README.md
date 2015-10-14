@@ -1,9 +1,8 @@
 ## Android Programming The Big Nerd Ranch Guide
 
-[Bölüm 1](Bölüm 1)
+[Bölüm 1](#bölüm_1)
 
-Bölüm 1
---
+# Bölüm 1
 
 1.1 User Interface
 ------------------
