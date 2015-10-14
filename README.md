@@ -1,23 +1,12 @@
 ## Android Programming The Big Nerd Ranch Guide
 
-* [İlk Android Uygulaması](#bölüm-1)
-  * [1.1 User Interface](#11user-interface)
+0. [İlk Android Uygulaması](#bölüm-1)
+  * [1.1 User Interface](#11-user-interface)
+  * [1.2 The view hierarchy](#12-the-view-hierarchy)
+  * [1.3 Widget attributes](#13-widget-attributes)
+  * [1.4 Layout XML'den View Nesnelerine](#14-layout-xml'den View Nesnelerine)
   
     
-
-[Bölüm 1](#bolum_1)
-
-[Bölüm 2](#bölüm_2)
-
-[Bölüm 3](#bölüm_3)
-
-[Bölüm 4](#bölüm_4)
-
-[Bölüm 5](#bölüm_5)
-
-[Bölüm 6](#bölüm_6)
-
-[Bölüm 7](#bölüm_7)
 
 Bölüm 1
 -------
