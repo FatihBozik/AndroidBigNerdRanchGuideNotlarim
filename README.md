@@ -1,6 +1,6 @@
 ## Android Programming The Big Nerd Ranch Guide
 
-[supported markup formats](#markups)
+[Bölüm 1](#bölüm-1)
 
 [Bölüm 1](#bolum_1)
 
